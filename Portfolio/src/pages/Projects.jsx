@@ -1,9 +1,10 @@
 import React from 'react';
-import Demo from '../Images/demo.png'
+import Snake from '../Images/snake.png'
 import img1 from '../Images/weather.avif'
 import img2 from '../Images/Forms.png'
 import img3 from '../Images/calculation.png'
 import img4 from '../Images/budget.png'
+
 
 function Projects() {
   return (
@@ -43,15 +44,8 @@ function Projects() {
             </a>
             <a href="https://jinugeorge-formvalidation.netlify.app">
             <div className="p-6 bg-white w-80 h-96 dark:bg-gray-700 shadow-lg rounded-lg transform transition-transform duration-200 hover:scale-105 hover:shadow-xl">
-              <h3 className="text-2xl font-semibold mb-2 text-gray-800 dark:text-white">Form Validation</h3>
-              <img className='rounded' src={Demo} alt="" />
-
-            </div>
-            </a>
-            <a href="https://jinugeorge-discountcalculator.netlify.app">
-            <div className="p-6 bg-white w-80 h-96 dark:bg-gray-700 shadow-lg rounded-lg transform transition-transform duration-200 hover:scale-105 hover:shadow-xl">
-              <h3 className="text-2xl font-semibold mb-2 text-gray-800 dark:text-white">Discout Calculator</h3>
-              <img className='rounded' src={Demo} alt="" />
+              <h3 className="text-2xl font-semibold mb-2 text-gray-800 dark:text-white">Snake Game</h3>
+              <img className='rounded' src={Snake} alt="" />
 
             </div>
             </a>
